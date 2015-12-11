@@ -1,5 +1,5 @@
 exports = (typeof window === 'undefined') ? global : window;
-//g
+
 exports.asyncAnswers = {
   async : function(value) {
     var dfd = $.Deferred();
